@@ -19,11 +19,12 @@ void setup()
 void loop()
 {
   mpu_loop();
-  Serial.print("roll(x):");
-  Serial.println(getAngleX());
-  Serial.print("pitch(y):");
-  Serial.println(getAngleY());
-  Serial.print("yaw(z):");
-  Serial.println(getAngleZ());
+  Serial.print("Ang X:");
+  Serial.print(getAngleX());
+  Serial.print(" | Ang Y:");
+  Serial.print(getAngleY());
+  Serial.print(" | Ang Z:");
+  Serial.print(getAngleZ());
+  
   delay(100);
 }
