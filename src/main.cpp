@@ -1,18 +1,29 @@
 #include <Arduino.h>
+#include "mpu6050.h"
 
-// put function declarations here:
-int myFunction(int, int);
+void setup() 
+{
+  Serial.begin(9600);
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  mpu_begin();
+
+  Serial.println("Calibrando, deixa parado!");
+  delay(1000);
+  mpu_calibrate(200);
+  Serial.println("Calibrado!");
+
+  mpu_reset();
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+void loop()
+{
+  mpu_loop();
+  Serial.print("roll(x):");
+  Serial.println(getAngleX());
+  Serial.print("pitch(y):");
+  Serial.println(getAngleY());
+  Serial.print("yaw(z):");
+  Serial.println(getAngleZ());
+  delay(100);
 }

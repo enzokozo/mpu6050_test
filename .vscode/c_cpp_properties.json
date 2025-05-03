@@ -10,14 +10,14 @@
             "includePath": [
                 "C:/Users/enzok/OneDrive/Documentos/PlatformIO/Projects/MPU6050_TEST/include",
                 "C:/Users/enzok/OneDrive/Documentos/PlatformIO/Projects/MPU6050_TEST/src",
+                "C:/Users/enzok/OneDrive/Documentos/PlatformIO/Projects/MPU6050_TEST/lib/mpu6050",
+                "C:/Users/enzok/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 "C:/Users/enzok/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/enzok/.platformio/packages/framework-arduino-avr/variants/standard",
-                "C:/Users/enzok/OneDrive/Documentos/PlatformIO/Projects/MPU6050_TEST/lib/mpu6050",
                 "C:/Users/enzok/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                 "C:/Users/enzok/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                 "C:/Users/enzok/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "C:/Users/enzok/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "C:/Users/enzok/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 ""
             ],
             "browse": {
@@ -25,14 +25,14 @@
                 "path": [
                     "C:/Users/enzok/OneDrive/Documentos/PlatformIO/Projects/MPU6050_TEST/include",
                     "C:/Users/enzok/OneDrive/Documentos/PlatformIO/Projects/MPU6050_TEST/src",
+                    "C:/Users/enzok/OneDrive/Documentos/PlatformIO/Projects/MPU6050_TEST/lib/mpu6050",
+                    "C:/Users/enzok/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     "C:/Users/enzok/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "C:/Users/enzok/.platformio/packages/framework-arduino-avr/variants/standard",
-                    "C:/Users/enzok/OneDrive/Documentos/PlatformIO/Projects/MPU6050_TEST/lib/mpu6050",
                     "C:/Users/enzok/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                     "C:/Users/enzok/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                     "C:/Users/enzok/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                     "C:/Users/enzok/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                    "C:/Users/enzok/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     ""
                 ]
             },
